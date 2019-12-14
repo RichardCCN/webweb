@@ -1,0 +1,516 @@
+body {
+    margin:0;
+    padding:0;
+    width:1280px;
+    position: relative;
+}
+img{
+    display: block;
+}
+.topbox {
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    display:flex;
+    background-color:#323232;
+    height:80px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.burger {
+    display:none;
+}
+
+.world{
+    margin-left:80px;
+    margin-right: 130px;
+    font-size: 25px;;
+}
+
+.list{
+    margin-left:50px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #A6A5A5;
+}
+
+.make {
+    font-size: 37px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: absolute;
+    top: 430px;
+    right: 513px;
+}
+
+.get {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: absolute;
+    top: 500px;
+    right: 503px;
+}
+
+.ideas {
+    position: absolute;
+    top: 559px;
+    right: 570px;
+}
+
+.sign {
+    margin-left: 330px;
+    font-size: 13px;
+}
+.marg{
+    margin: 0;
+    padding:0;
+}
+
+  
+.silver {
+    
+    padding:0;
+    margin:0;
+    background-color: #6D6B6B;
+    height:2300px;
+    padding:30px;
+}
+
+.pics {
+    margin-left:100px;
+    margin-top:25px;
+}
+
+.smalltitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:#FFFFFF;
+    margin-top:50px;
+    margin-left: 100px;
+}
+
+.here{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:38px;
+    margin-top: 50px;
+    margin-left: 300px;
+    color:#FFFFFF;
+}
+
+.bigtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:38px;
+    margin-top: 50px;
+    margin-left: 400px;
+    color:#FFFFFF;
+}
+
+.buttonboi {
+    margin-left: 550px;
+    margin-top: 30px;
+}
+
+.verybtm {
+    background-color: #242424;
+    height: 200px;
+    display:flex;
+    flex-direction: row;
+    padding-left: 110px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.endone {
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 30px;
+    border-right: 1px solid #707070;
+}
+
+.end {
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 80px;
+    border-right: 1px solid #707070;
+}
+
+.endtwo {
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    margin-left: 10px;
+    margin-right: 50px;
+    padding-right: 60px;
+}
+
+.titleei {
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+@media only screen and (max-width: 750px) {
+    body {
+        margin:0;
+        padding:0;
+        width:720px;
+        position: relative;
+    }
+    img{
+        display: block;
+    }
+    .topbox {
+        font-family: Arial, Helvetica, sans-serif;
+        color:white;
+        display:flex;
+        background-color:#323232;
+        height:60px;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .burger {
+        display:none;
+        margin-left:20px;
+        margin-right: 40px;
+    }
+    .world{
+        margin-left:40px;
+        margin-right: 50px;
+        font-size: 15px;;
+    }
+    
+    .list{
+        margin-left:30px;
+        font-size: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #A6A5A5;
+    }
+    
+    .make {
+        font-size: 19px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        position: absolute;
+        top:272px;
+        right: 300px;
+    }
+    
+    .get {
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        position: absolute;
+        top: 295px;
+        right: 265px;
+    }
+    
+    .ideas {
+        width:80px;
+        height:20px;
+        position: absolute;
+        top: 330px;
+        right: 315px;
+    }
+    
+    .sign {
+        margin-left: 80px;
+        font-size: 13px;
+    }
+    .marg{
+        width:720px;
+        margin: 0;
+        padding:0;
+    }
+    
+      
+    .silver {
+        
+        padding:0;
+        margin:0;
+        background-color: #6D6B6B;
+        height:1100px;
+        padding:10px;
+    }
+    
+    .pics {
+        width:500px;
+        margin-left:90px;
+        margin-top:10px;
+    }
+    
+    .smalltitle {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color:#FFFFFF;
+        margin-top:20px;
+        margin-left: 90px;
+    }
+    
+    .here{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:20px;
+        margin-top: 20px;
+        margin-left: 180px;
+        color:#FFFFFF;
+    }
+    
+    .bigtitle {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:20px;
+        margin-top: 20px;
+        margin-left: 250px;
+        color:#FFFFFF;
+    }
+    
+    .buttonboi {
+        width:80px;
+        height:20px;
+        margin-left: 315px;
+        margin-top: 10px;
+    }
+    
+    .verybtm {
+        background-color: #242424;
+        height: 150px;
+        display:flex;
+        flex-direction: row;
+        padding-left: 1px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    
+    .endone {
+        font-family: Arial, Helvetica, sans-serif;
+        color:white;
+        font-size: 10px;
+        margin-left: 65px;
+        margin-right: 10px;
+        padding-right: 30px;
+        border-right: 1px solid #707070;
+    }
+    
+    .end {
+        font-family: Arial, Helvetica, sans-serif;
+        color:white;
+        font-size: 10px;
+        margin-left: 1px;
+        margin-right: 10px;
+        padding-right: 30px;
+        border-right: 1px solid #707070;
+    }
+    
+    .endtwo {
+        font-family: Arial, Helvetica, sans-serif;
+        color:white;
+        font-size: 10px;
+        margin-left: 1px;
+        margin-right: 10px;
+        padding-right: 20px;
+    }
+    
+    .titleei {
+        font-family: Arial, Helvetica, sans-serif;
+        color:white;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    
+    
+}
+
+
+
+@media only screen and (max-width: 360px){
+
+    body {
+        margin:0;
+        padding:0;
+        width:360px;
+        position: relative;
+    }
+    img{
+        display: block;
+    }
+    .topbox {
+        font-family: Arial, Helvetica, sans-serif;
+        color:white;
+        display:flex;
+        background-color:#323232;
+        height:38px;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    .nav {
+        display:none
+    }
+    .sign {
+        display:none
+    }
+
+    .burger {
+        display:block;
+    }
+
+    .world{
+        margin-left:40px;
+        margin-right: 50px;
+        font-size: 15px;;
+    }
+    
+    .list{
+        margin-left:30px;
+        font-size: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #A6A5A5;
+    }
+    
+    .make {
+        font-size: 19px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        position: absolute;
+        top:80px;
+        right: 120px;
+    }
+    
+    .get {
+        font-size: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        position: absolute;
+        top: 115px;
+        right: 130px;
+    }
+    
+    .ideas {
+        width:40px;
+        height:10px;
+        position: absolute;
+        top: 140px;
+        right: 160px;
+    }
+    
+    .sign {
+        margin-left: 80px;
+        font-size: 13px;
+    }
+    .marg{
+        width:360px;
+        margin: 0;
+        padding:0;
+    }
+    
+      
+    .silver {
+        
+        padding:0;
+        margin:0;
+        background-color: #6D6B6B;
+        height:650px;
+        padding:10px;
+    }
+    
+    .pics {
+        width:280px;
+        margin-left:25px;
+        margin-top:10px;
+    }
+    
+    .smalltitle {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color:#FFFFFF;
+        margin-top:5px;
+        margin-left: 25px;
+    }
+    
+    .here{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:10px;
+        margin-top: 20px;
+        margin-left: 85px;
+        color:#FFFFFF;
+    }
+    
+    .bigtitle {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:10px;
+        margin-top: 20px;
+        margin-left: 113px;
+        color:#FFFFFF;
+    }
+    
+    .buttonboi {
+        width:40px;
+        height:10px;
+        margin-left: 150px;
+        margin-top: 10px;
+    }
+    
+    .verybtm {
+        display : none;
+        background-color: #242424;
+        height: 5px;
+        flex-direction: row;
+        padding-left: 1px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    
+    .endone {
+        font-family: Arial, Helvetica, sans-serif;
+        color:white;
+        font-size: 5px;
+        margin-left: 35px;
+        margin-right: 5px;
+        padding-right: 30px;
+        border-right: 0px solid #707070;
+    }
+    
+    .end {
+        font-family: Arial, Helvetica, sans-serif;
+        color:white;
+        font-size: 5px;
+        margin-left: 1px;
+        margin-right: 5px;
+        padding-right: 30px;
+        border-right: 0px solid #707070;
+    }
+    
+    .endtwo {
+        font-family: Arial, Helvetica, sans-serif;
+        color:white;
+        font-size: 5px;
+        margin-left: 1px;
+        margin-right: 5px;
+        padding-right: 10px;
+    }
+    
+    .titleei {
+        font-family: Arial, Helvetica, sans-serif;
+        color:white;
+        font-size: 5px;
+        font-weight: bold;
+    }
+
+    .btmbtm {
+        background-color: #242424;
+        height: 30px;
+        display:flex;
+        flex-direction: row;
+        padding-left: 1px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+}
